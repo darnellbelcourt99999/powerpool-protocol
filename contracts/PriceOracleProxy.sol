@@ -45,7 +45,7 @@ contract PriceOracleProxy is PriceOracle {
     /**
      * @param guardian_ The address of the guardian, which may set the SAI price once
      * @param v1PriceOracle_ The address of the v1 price oracle, which will continue to operate and hold prices for collateral assets
-     * @param cEthAddress_ The address of cETH, which will return a constant 1e18, since all prices relative to ether
+     * @param cEthAddress_ The address of ppETH, which will return a constant 1e18, since all prices relative to ether
      * @param cUsdcAddress_ The address of cUSDC, which will be read from a special oracle key
      * @param cSaiAddress_ The address of cSAI, which may be read directly from storage
      * @param cDaiAddress_ The address of cDAI, which will be read from a special oracle key
